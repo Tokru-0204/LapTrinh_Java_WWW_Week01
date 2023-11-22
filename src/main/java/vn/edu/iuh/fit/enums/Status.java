@@ -9,7 +9,6 @@ public enum Status {
     public int getCode() {
         return code;
     }
-
     public static Status fromCode(int code) throws IllegalAccessError {
         for (Status status : Status.values()) {
             if (status.getCode() == code) {

@@ -22,7 +22,7 @@ public class AddAccount extends HttpServlet {
                 req.getParameter("pwd").toString(),
                 req.getParameter("email").toString(),
                 req.getParameter("phone").toString(),
-                parseByte(req.getParameter("statue").toString(), 10)
+                parseByte(req.getParameter("status").toString(), 10)
         );
 
         AccountServices.insertAccount(account);

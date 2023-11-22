@@ -24,8 +24,8 @@ public class Log {
     public Log() {
     }
 
-    public Log(String acccount_id, Timestamp login_time, Timestamp logout_time, String notes) {
-        this.account_id = acccount_id;
+    public Log(String account_id, Timestamp login_time, Timestamp logout_time, String notes) {
+        this.account_id = account_id;
         this.login_time = login_time;
         this.logout_time = logout_time;
         this.notes = notes;
@@ -39,12 +39,12 @@ public class Log {
         this.id = id;
     }
 
-    public String getAcccount_id() {
+    public String getAccount_id() {
         return account_id;
     }
 
-    public void setAcccount_id(String acccount_id) {
-        this.account_id = acccount_id;
+    public void setAccount_id(String account_id) {
+        this.account_id = account_id;
     }
 
     public Timestamp getLogin_time() {
@@ -71,19 +71,11 @@ public class Log {
         this.notes = notes;
     }
 
-    public Log(long id, String acccount_id, Timestamp login_time, Timestamp logout_time, String notes) {
-        this.id = id;
-        this.account_id = acccount_id;
-        this.login_time = login_time;
-        this.logout_time = logout_time;
-        this.notes = notes;
-    }
-
     @Override
     public String toString() {
         return "Log{" +
                 "id=" + id +
-                ", acccount_id='" + account_id + '\'' +
+                ", account_id='" + account_id + '\'' +
                 ", login_time=" + login_time +
                 ", logout_time=" + logout_time +
                 ", notes='" + notes + '\'' +

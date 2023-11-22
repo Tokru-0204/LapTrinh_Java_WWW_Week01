@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ADMIN
-  Date: 04/11/2023
-  Time: 1:16 SA
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -16,6 +9,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <style>
+        .navbar {
+            background-color: darkcyan;
+        }
+        .navbar a {
+            color: white !important;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: lightcyan !important;
+        }
+    </style>
 </head>
 <body>
 <div>
