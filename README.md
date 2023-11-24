@@ -12,7 +12,7 @@
     ![img.png](img/img_4.png)
   - Quản lí các account hiện có
   ![img.png](img/img_5.png)
-  - Hoàn thành các chức năng CRUD với quyền admin:
+  - Hoàn thành các chức năng CRUD với quyền admin
   - Ghi log mỗi lần account đăng nhập, đăng xuất
   ![img.png](img/img_6.png)
 - Login với quyền user:
