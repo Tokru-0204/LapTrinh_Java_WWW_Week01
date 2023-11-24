@@ -12,17 +12,13 @@
     ![img.png](img/img_4.png)
   - Quản lí các account hiện có
   ![img.png](img/img_5.png)
+  - Hoàn thành các chức năng CRUD với quyền admin:
   - Ghi log mỗi lần account đăng nhập, đăng xuất
   ![img.png](img/img_6.png)
-  - Các chức năng hoàn thành với quyền admin:
-    + Thêm 1 account
-    + Xóa 1 account
-    + Logout quay về trang Login
 - Login với quyền user:
   - Hiển thị thông tin user và các quyền
   ![img.png](img/img_7.png)
-  - Các chức năng hoàn thành với quyền user:
-    + Logout quay về trang Login
+- Logout quay về trang Login
 
 
 
